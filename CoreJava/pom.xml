@@ -4,7 +4,11 @@
     <artifactId>core-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>core-java</name>
-
+    <parent>
+        <groupId>com.samples</groupId>
+        <artifactId>parent-module</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
 
     <dependencies>
         <dependency>
